@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "img": "https://images.all-free-download.com/images/graphicthumb/apple_fruit_214529.jpg",
+        "price": 50,
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "Oranage",
+        "img": "https://media.gettyimages.com/photos/farmer-taking-fresh-orange-from-wooden-box-in-orange-orchard-picture-id976859596?s=612x612",
+        "price": 60,
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "Strawberry",
+        "img": "https://images.all-free-download.com/images/graphicthumb/strawberry_fruits_fruit_217796.jpg",
+        "price": 80,
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Pear",
+        "img": "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGVhcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+        "price": 70,
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": " Avocado",
+        "img": "https://media.gettyimages.com/photos/hass-avocados-picture-id183817493?s=612x612",
+        "price": 90,
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "Bananas",
+        "img": "https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "price": 40,
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "Pineapple",
+        "img": "https://images.pexels.com/photos/7528/pexels-photo.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "price": 70,
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "Lemon",
+        "img": "https://images.pexels.com/photos/266346/pexels-photo-266346.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "price": 20,
+        "quantity": 1
+    }
+]
