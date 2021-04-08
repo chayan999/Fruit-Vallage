@@ -41,15 +41,15 @@ function App() {
             <Login></Login>
           </Route>
 
-          <Route path='/inventory'>
+          <PrivateRoute path='/inventory'>
             <Inventory></Inventory>
-          </Route>
+          </PrivateRoute>
           <Route path="/order-review">
             <OrderReview></OrderReview>
           </Route>
-          <Route path="/editproduct">
+          <PrivateRoute path="/editproduct">
             <EditProduct></EditProduct>
-          </Route>
+          </PrivateRoute>
         </Switch>
 
       </Router>

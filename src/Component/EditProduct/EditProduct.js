@@ -5,13 +5,13 @@ const EditProduct = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/item-orders')
+        fetch('https://stormy-gorge-59612.herokuapp.com/item-orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, []);
 
     const deleteProduct = (event, _id) => {
-        fetch(`http://localhost:5000/delete/${_id}`, {
+        fetch(`https://stormy-gorge-59612.herokuapp.com/delete/${_id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())
@@ -28,7 +28,7 @@ const EditProduct = () => {
                 <h1 className="text-center">Your Order Item {orders.length}</h1>
 
                 {
-                    orders.map(order => <ol className="text-center"> coustomar: Product: {order.name}, Price: {order.price}, Quantity: {order.quantity}kg. <button class="btn btn-danger" onClick={() => deleteProduct(`event,${order._id}`)}>Delete</button> </ol>)
+                    orders.map(order => <ol className="text-center">  Product: {order.name}, Price: {order.price}, Quantity: {order.quantity}kg. <button class="btn btn-danger" onClick={() => deleteProduct(`event,${order._id}`)}>Delete</button> </ol>)
                 }
 
 

@@ -9,7 +9,7 @@ const OrderReview = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/item-orders?email=' + loggedInUser.email)
+        fetch('https://stormy-gorge-59612.herokuapp.com/item-orders?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])

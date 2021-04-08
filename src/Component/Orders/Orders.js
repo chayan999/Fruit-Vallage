@@ -10,7 +10,7 @@ const Orders = () => {
     console.log(product);
     console.log(orders_Id)
     useEffect(() => {
-        fetch('http://localhost:5000/product')
+        fetch('https://stormy-gorge-59612.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [orders_Id])

@@ -12,7 +12,7 @@ const Home = () => {
     const [fruits, setFruit] = useState([]);
     useEffect(() => {
         // setFruit(fakeData);
-        fetch('http://localhost:5000/products')
+        fetch('https://stormy-gorge-59612.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setFruit(data))
     }, [])

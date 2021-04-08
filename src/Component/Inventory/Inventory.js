@@ -20,7 +20,7 @@ const Inventory = () => {
         };
 
         console.log(eventData)
-        const url = `http://localhost:5000/addEvent`;
+        const url = `https://stormy-gorge-59612.herokuapp.com/addEvent`;
         fetch(url, {
             method: 'POST',
             headers: {
